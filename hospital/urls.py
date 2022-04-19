@@ -4,9 +4,7 @@ from .import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('base',views.BASE,name='base'),
-
-
+    path('base/',views.BASE,name='base'),
     path('login',views.LOGIN,name='login'),
 
 ]
