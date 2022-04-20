@@ -1,3 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 body{
-    background-color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  background: lightgreen;
+  height: 60px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 60px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 7 13px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+  background-color: whitesmoke;
+  transition: .5s;
 }
