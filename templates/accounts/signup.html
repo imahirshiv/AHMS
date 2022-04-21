@@ -1,4 +1,6 @@
+{% extends 'base.html' %}
 {% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,9 +31,12 @@
             <div>
                 <button type="button" class="cancel">Cancel</button>
                 <button type="submit" class="signup">Sign Up</button>
+                <p>Already have account?  <a href="/account/login" style="color:dodgerblue">Sign in</a>
+                    <p>
             </div>
         </div>
     </form>
 </body>
 
 </html>
+{% endblock content %}
